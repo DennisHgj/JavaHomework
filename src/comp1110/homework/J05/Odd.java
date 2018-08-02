@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 public class Odd {
-    public static boolean isodd(int i){
+    public static boolean isOdd(int i){
         /*if(i%2==0){
             System.out.println(i + " is even");
             return false;
@@ -28,7 +28,7 @@ public class Odd {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
-        isodd(num);
+        isOdd(num);
 
 
     }
