@@ -40,7 +40,6 @@ then print `"Invalid Option Selected"` instead of taking in an array
     3
     1
     2
-
     3
     Sample Input 3              Sample Output 3
     4                           "Invalid Option Selected"
