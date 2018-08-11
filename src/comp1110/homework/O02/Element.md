@@ -8,7 +8,7 @@ the atomic weight, the group, and the period (listed in the table below).
 and then initialize its elements to be the weight, group, and period of
 the element, respectively.
 * The enum will have a getter method `getFacts()` that returns the `int[]`, representing
-the three values: weight, group, and period for the given elment.
+the three values: weight, group, and period for the given element.
 * Implement this class (if you wish you may implement a main method that demonstrates its use).
 
 Once you have it working, add and commit your work.
