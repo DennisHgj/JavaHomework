@@ -15,7 +15,7 @@ public class TeenCount {
         }
         int[] l = new int[s1];
 
-        loop:
+        /*loop:
         for (int i = 0; i < array.length; i++) {
             for (int j = 13; j < 20; j++) {
                 if (array[i] == j) {
@@ -26,6 +26,12 @@ public class TeenCount {
             l[s]=array[i];
             s++;
 
+        }*/
+        for(int i=0;i<array.length;i++){
+            if (array[i]>19||array[i]<13){
+                l[s]=array[i];
+                s++;
+            }
         }
         return l;
 

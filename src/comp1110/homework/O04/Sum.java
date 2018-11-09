@@ -12,6 +12,9 @@ public class Sum extends ArrayList<Integer> {
         this.elements = elements;
         this.size= size;
     }
+    public Sum(){
+
+    }
 
     List<Integer> list = new ArrayList<Integer>();
 
